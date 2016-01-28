@@ -22,8 +22,19 @@ As well as topics related to the people behind the projects, collaboration, etc.
 
 Submit your application to the program: [Write for GitLab](https://about.gitlab.com/community/writers/).
 
-### Write
+### Who's working on what?
 
-When an issue is assigned, that means it's being worked on. You will be assigned an issue to write. 
+- When an issue is assigned, that means it's being worked on. You will be assigned an issue to write. 
+- If an issue IS assigned, then it means it's being worked on. If it's not assigned, then it's open for proposal
 
+### Write!
+
+Your post will get submitted into the www-gitlab-com using GitLab workflow. Here's how it works
+
+- Create a branch, and commit your draft blog post
+- You'll write your blog post in Markdown. 
+Here are some guidelines for [writing a blog post for GitLab](https://gitlab.com/gitlab-com/www-gitlab-com#in-blog-posts)
+- We'll review and give you feedback
+- When you're ready to submit for final review, create a merge request
+- Then you'll get more feedback as a final pass and we'lll publish!
 
