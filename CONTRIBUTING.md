@@ -36,5 +36,5 @@ Your post will get submitted into the www-gitlab-com using GitLab workflow. Here
 Here are some guidelines for [writing a blog post for GitLab](https://gitlab.com/gitlab-com/www-gitlab-com#in-blog-posts)
 - We'll review and give you feedback
 - When you're ready to submit for final review, create a merge request
-- Then you'll get more feedback as a final pass and we'lll publish!
+- Then you'll get more feedback as a final pass and we'll publish!
 
