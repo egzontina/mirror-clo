@@ -36,8 +36,9 @@ Here's how it works.
 1. Create a fork of our website project. [www-gitlab-com](https://gitlab.com/gitlab-com/www-gitlab-com).
 2. Add a post
     - You'll write your blog post in Markdown. 
-    - Here are some guidelines for [writing a blog post for GitLab](https://gitlab.com/gitlab-com/www-gitlab-com#in-blog-posts)
-3. Create an MR to prompt a review
+    - Follow examples under [/source/_posts](https://gitlab.com/gitlab-com/www-gitlab-com/tree/master/source/_posts)
+    - We have minimal guidelines currently for [writing a blog post for GitLab](https://gitlab.com/gitlab-com/www-gitlab-com#in-blog-posts)
+3. Create a MR to prompt a review
     - Make the MR in WIP mode. Meaning add WIP to the title so it won't be merged accidentally. 
     - cc @nearlythere to prompt a review
 4. Then you'll get more feedback and then we'll publish!
