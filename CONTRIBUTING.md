@@ -29,12 +29,18 @@ Submit your application to the program: [Write for GitLab](https://about.gitlab.
 
 ### Write!
 
-Your post will get submitted into the www-gitlab-com using GitLab workflow. Here's how it works
+Your post will get submitted into the www-gitlab-com using GitLab workflow. 
 
-- Create a branch, and commit your draft blog post
-- You'll write your blog post in Markdown. 
-Here are some guidelines for [writing a blog post for GitLab](https://gitlab.com/gitlab-com/www-gitlab-com#in-blog-posts)
-- We'll review and give you feedback
-- When you're ready to submit for final review, create a merge request
-- Then you'll get more feedback as a final pass and we'll publish!
+Here's how it works. 
 
+1. Create a fork of our website project. [www-gitlab-com](https://gitlab.com/gitlab-com/www-gitlab-com).
+2. Add a post
+    - You'll write your blog post in Markdown. 
+    - Here are some guidelines for [writing a blog post for GitLab](https://gitlab.com/gitlab-com/www-gitlab-com#in-blog-posts)
+3. Create an MR to prompt a review
+    - Make the MR in WIP mode. Meaning add WIP to the title so it won't be merged accidentally. 
+    - cc @nearlythere to prompt a review
+4. Then you'll get more feedback and then we'll publish!
+
+(If these steps aren't clear, you can also create a 
+first draft in Google Docs, and submit for review.)
