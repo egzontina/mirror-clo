@@ -58,7 +58,7 @@ in the series to each one after they get published.
 
 ## Formatting
 
-See references directly in the documentation style guide. Of particular use.
+See references directly in the documentation style guide. Of particular use:
 
 - [Writing text][doctext]
 - [Formatting text][docformatting]
@@ -72,7 +72,7 @@ This will break the introduction which gets displayed on the [blog listing page]
 
 ## Person
 
-The person you use will depend on the content you are writing. 
+The point of view or person you write in will depend on the content you are writing. 
 
 Generally in blog posts, it's normal to write from first person singular point of view. 
 "I've found" or "I think" are common when writing an opinion piece.  
