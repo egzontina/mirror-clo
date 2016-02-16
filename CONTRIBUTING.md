@@ -37,7 +37,7 @@ Here's how it works.
 2. Add a post
     - You'll write your blog post in Markdown. 
     - Follow examples under [/source/_posts](https://gitlab.com/gitlab-com/www-gitlab-com/tree/master/source/_posts)
-    - We have minimal guidelines currently for [writing a blog post for GitLab](https://gitlab.com/gitlab-com/www-gitlab-com#in-blog-posts)
+    - Follow the [style guide](https://gitlab.com/gitlab-com/blog-posts/blob/master/STYLEGUIDE.md)
 3. Create a MR to prompt a review
     - Make the MR in WIP mode. Meaning add WIP to the title so it won't be merged accidentally. 
     - cc @nearlythere to prompt a review
