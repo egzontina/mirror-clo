@@ -31,13 +31,24 @@ Be clear in the objective for your article.
 What will notivate the reader to continue reading the article? 
 What will they gain from reading the article?
 
+Long lists of steps are hard to follow and refer back to. 
+Chunk tasks into steps in the article and use headings for these steps. 
+
+The article should be thorough. 
+If all the prerequisite steps cannot be covered in the scope of the article,
+link to another GitLab article or documentation where all the prerequisites
+are covered. 
+If that article or documentation doesn't yet exist, considering writing *that* 
+article or contributing *that* documentation first. 
+
 ## Structure 
 
 - Introduction. State the problem, audience and purpose of the article. 
-- `&lt;!-- more --&gt;` break
+- `<!-- more -->` break
 - Concepts they need to understand
 - Configuration or set up required to begin the tutorial
-- Tutorial broken down into steps
+- Tutorial broken down into steps. 
+- Steps are broken down into tasks.
 - Conclusion to summarize the article
 
 If the article is part of a series, make sure to link back among all articles
@@ -53,7 +64,7 @@ See references directly in the documentation style guide. Of particular use.
 
 In blog posts use the more comment line to mark where the jump is. 
 
-> `&lt;!-- more --&gt;`
+> `<!-- more -->`
 
 This will break the introduction which gets displayed on the [blog listing page][blogpage].
 
@@ -105,6 +116,8 @@ Those should be placed in the /source/images/unsplash directory.
 
 For including the image in the markdown text, refer to "Inside the document"
 guidelines in the [Documentation style guide][docimages].
+
+************
 
 Credit where credit is due: Some of the guidelines are inspired by the 
 [Digital Ocean tutorial style guide][dostyleguide].
