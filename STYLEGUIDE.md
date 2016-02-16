@@ -72,9 +72,13 @@ This will break the introduction which gets displayed on the [blog listing page]
 
 ## Person
 
+The person you use will depend on the content you are writing. 
+
 Generally in blog posts, it's normal to write from first person singular point of view. 
-"I've found" or "I think" are common. 
-In tutorials we should use first person plural "we" and second person "you." 
+"I've found" or "I think" are common when writing an opinion piece.  
+If you are writing an opinion piece, use first person. 
+
+However in technical tutorials we should use first person plural "we" and second person "you." 
 
 Instead of... 
 
@@ -88,7 +92,7 @@ Use
 
 GitLab tutorial blog posts should be written in a friendly style, but free of 
 jargon or memes.
-Avoid using cultural idioms and references that could exclude or confluse readers. 
+Avoid using cultural idioms and references that could exclude or confuse readers. 
 
 ## Images
 
@@ -110,9 +114,9 @@ Compress the image, for example using [TinyPNG.com][tinypng] or any other image 
 
 ### Where to place images
 
-Images used to illustrate articles should be placed in the /source/images/blogimages directory. 
+Images used to illustrate articles should be placed in the `/source/images/blogimages` directory. 
 Unless they are free to use lead images from [Unsplash][unsplash]. 
-Those should be placed in the /source/images/unsplash directory.
+Those should be placed in the `/source/images/unsplash` directory.
 
 ### Including images in the document
 
