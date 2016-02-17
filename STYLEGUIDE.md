@@ -52,6 +52,7 @@ article or contributing *that* documentation first.
 - Configuration or set up required to begin the tutorial
 - Tutorial broken down into steps. 
 - Steps are broken down into tasks.
+- What did you learn during writing this, teach the user something interesting.
 - Conclusion to summarize the article
 
 If the article is part of a series, make sure to link back among all articles
