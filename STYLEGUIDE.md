@@ -123,6 +123,17 @@ Those should be placed in the `/source/images/unsplash` directory.
 For including the image in the markdown text, refer to "Inside the document"
 guidelines in the [Documentation style guide][docimages].
 
+## GitLab Specific Terms 
+
+**GitLab** is always spelled with a capital L. 
+
+If you're writing about the CI feature, it's not a separate product. 
+For example don't refer to "Gitlab's CI runner" please refer to "GitLab Runner."
+
+**GitLab, Inc.** is the company. 
+
+We refer to **GitLab team members** instead of staff. 
+
 ************
 
 Credit where credit is due: Some of the guidelines are inspired by the 
