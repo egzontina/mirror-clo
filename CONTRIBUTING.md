@@ -41,7 +41,10 @@ Here's how it works.
 3. Create a MR to prompt a review
     - Make the MR in WIP mode. Meaning add WIP to the title so it won't be merged accidentally. 
     - cc @nearlythere to prompt a review
-4. Then you'll get more feedback and then we'll publish!
+4. Review
+    - You will get a formal/style review. Does it follow the style guide? Is it easy to follow?
+    - You will get a technical review. A technical review will ensure everything works as expected and follows our best practices.
+5. Finally we'll schedule and we'll publish!
 
 (If these steps aren't clear, you can also create a 
 first draft in Google Docs, and submit for review.)
