@@ -11,6 +11,7 @@ Table of contents
 - [Person](#person)
 - [Formality](#formality)
 - [Images](#images)
+- [GitLab Specific Terms(#gitlab-specific-terms)
 
 ## Philosophy
 
