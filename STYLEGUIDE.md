@@ -44,6 +44,14 @@ are covered.
 If that article or documentation doesn't yet exist, considering writing *that* 
 article or contributing *that* documentation first. 
 
+Some information should be left to documentation. 
+Documentation should be the map. 
+The articles and tutorials should be guided tour of key landmarks. 
+Details about requirements, supported technologies, and so forth. 
+If it's not already in documentation please contibute it to GitLab CE or EE. 
+Alternatively, make an [issue for missing documentation](https://gitlab.com/gitlab-com/doc-gitlab-com).
+This is more sustainable, since documentation is maintained. 
+
 ## Structure 
 
 - Introduction. State the problem, audience and purpose of the article. 
