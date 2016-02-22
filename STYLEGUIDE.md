@@ -7,7 +7,7 @@ Table of contents
 
 - [Philosophy](#philosophy)
 - [Structure](#structure)
-- [Markup and formatting](#markup)
+- [Markup and formatting](#formatting)
 - [Person](#person)
 - [Formality](#formality)
 - [Images](#images)
