@@ -11,7 +11,7 @@ Table of contents
 - [Person](#person)
 - [Formality](#formality)
 - [Images](#images)
-- [GitLab Specific Terms](#gitlab-specific-terms)
+- [GitLab Specific Terms and Points](#gitlab-specific-terms)
 
 ## Philosophy
 
@@ -143,6 +143,11 @@ For example don't refer to "Gitlab's CI runner" please refer to "GitLab Runner."
 **GitLab, Inc.** is the company. 
 
 We refer to **GitLab team members** instead of staff. 
+
+Don't expose your personal details by using your real tokens or 
+security credentials.
+Use placeholders such as `[project's CI token]` stub instead.
+
 
 ************
 
