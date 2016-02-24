@@ -144,7 +144,7 @@ For example don't refer to "Gitlab's CI runner" please refer to "GitLab Runner."
 
 We refer to **GitLab team members** instead of staff. 
 
-Don't expose your personal details by using your real tokens or 
+**Important security point:** Do not expose your personal details by using your real tokens or 
 security credentials.
 Use placeholders such as `[project's CI token]` stub instead.
 
