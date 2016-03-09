@@ -54,6 +54,8 @@ This is more sustainable, since documentation is maintained.
 
 ## Structure 
 
+Use h2 ## for headings and subheadings in the articles.
+
 - Introduction. State the problem, audience and purpose of the article. 
 - `<!-- more -->` break
 - Concepts they need to understand
