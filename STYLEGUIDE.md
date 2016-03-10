@@ -52,12 +52,17 @@ If it's not already in documentation please contibute it to GitLab CE or EE.
 Alternatively, make an [issue for missing documentation](https://gitlab.com/gitlab-com/doc-gitlab-com).
 This is more sustainable, since documentation is maintained. 
 
+**Important security point:** Do not expose your personal details by using your real tokens or 
+security credentials.
+Use placeholders such as `[project's CI token]` stub instead.
+
 ## Structure 
 
-Use h2 ## for headings and subheadings in the articles.
+This is an example outline of a typical article. 
 
 - Introduction. State the problem, audience and purpose of the article. 
 - `<!-- more -->` break
+- Use h2 ## for headings and subheadings in the articles.
 - Concepts they need to understand
 - Configuration or set up required to begin the tutorial
 - Tutorial broken down into steps. 
@@ -68,6 +73,12 @@ Use h2 ## for headings and subheadings in the articles.
 If the article is part of a series, make sure to link back among all articles
 in the series to each one after they get published. 
 
+**The break**: In blog posts use the more comment line to mark where the jump is. 
+
+> `<!-- more -->`
+
+This will break the introduction which gets displayed on the [blog listing page][blogpage].
+
 ## Formatting
 
 See references directly in the documentation style guide. Of particular use:
@@ -75,12 +86,6 @@ See references directly in the documentation style guide. Of particular use:
 - [Writing text][doctext]
 - [Formatting text][docformatting]
 - [Links in text][doclinks]
-
-In blog posts use the more comment line to mark where the jump is. 
-
-> `<!-- more -->`
-
-This will break the introduction which gets displayed on the [blog listing page][blogpage].
 
 ## Person
 
@@ -127,7 +132,7 @@ Compress the image, for example using [TinyPNG.com][tinypng] or any other image 
 ### Where to place images
 
 Images used to illustrate articles should be placed in the `/source/images/blogimages` directory. 
-Unless they are free to use lead images from [Unsplash][unsplash]. 
+Unless they are 'free to use' lead images from [Unsplash][unsplash]. 
 Those should be placed in the `/source/images/unsplash` directory.
 
 ### Including images in the document
@@ -140,16 +145,11 @@ guidelines in the [Documentation style guide][docimages].
 **GitLab** is always spelled with a capital L. 
 
 If you're writing about the CI feature, it's not a separate product. 
-For example don't refer to "Gitlab's CI runner" please refer to "GitLab Runner."
+For example don't refer to "Gitlab CI's runner" please refer to "GitLab Runner."
 
 **GitLab, Inc.** is the company. 
 
 We refer to **GitLab team members** instead of staff. 
-
-**Important security point:** Do not expose your personal details by using your real tokens or 
-security credentials.
-Use placeholders such as `[project's CI token]` stub instead.
-
 
 ************
 
