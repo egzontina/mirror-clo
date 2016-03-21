@@ -56,6 +56,24 @@ This is more sustainable, since documentation is maintained.
 security credentials.
 Use placeholders such as `[project's CI token]` stub instead.
 
+## Header
+
+Make sure the date of the post matches the filename on the post.
+The timestamp is the server time, or GMT +1.
+The time indicated on the post will control the order of the posts.
+
+```
+---
+layout: post
+title: This is the title
+date: 2016-03-21 17:00
+comments: true
+author: Firstname Lastname
+author_twitter: userID
+image_title: /images/unsplash/cat-in-the-box.jpg
+---
+```
+
 ## Structure 
 
 This is an example outline of a typical article. 
