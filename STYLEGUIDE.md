@@ -6,6 +6,7 @@ Everything included in this guide is an addendum or blog-specific override to th
 Table of contents
 
 - [Philosophy](#philosophy)
+- [Header](#header)
 - [Structure](#structure)
 - [Markup and formatting](#formatting)
 - [Person](#person)
