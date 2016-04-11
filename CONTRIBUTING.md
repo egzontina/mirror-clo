@@ -33,7 +33,7 @@ Submit your application to the program: [Write for GitLab](https://about.gitlab.
 
 ### Step 3 - Propose! 
 
-Before you start writing, we need to work on your proposal
+Before you start writing, we need to work on your proposal.
 
 - Objective: What is the purpose of the article or tutorial?
 What value does it offer the reader?
@@ -55,18 +55,21 @@ Here's how it works.
     on those in parallel.
 2. Add a post
     - You'll write your blog post in Markdown. 
-    - Follow examples under [/source/posts](https://gitlab.com/gitlab-com/www-gitlab-com/tree/master/source/posts)
-    - Follow the [style guide](https://gitlab.com/gitlab-com/blog-posts/blob/master/STYLEGUIDE.md)
     - Files end in .html.md 
+    - Follow examples under [/source/posts](https://gitlab.com/gitlab-com/www-gitlab-com/tree/master/source/posts)
+    - Follow the [style guide] and make sure to spell-check your work before
+    submitting.
 3. Create a MR to prompt a review
     - Make the MR in WIP mode. Meaning add WIP: to the title so it won't be merged accidentally. 
-    - cc @nearlythere to prompt a review
+    - cc @nearlythere to prompt a review.
     - Add @nearlythere and @axil as developers on your project so they can make changes directly.
 4. Review
-    - You will get a formal/style review. Does it follow the style guide? Is it easy to follow?
+    - You will get a formal/style review. Does it follow the [style guide]? Is it easy to follow?
     - You will get a technical review. A technical review will ensure everything works as expected and follows our best practices.
     - You'll get a "eagle eyes" copy edit for any final issues with grammar.
 5. Finally we'll schedule and we'll publish!
 
 (If these steps aren't clear, you can also create a 
 first draft in Google Docs, and submit for review.)
+
+[style guide]: https://gitlab.com/gitlab-com/blog-posts/blob/master/STYLEGUIDE.md
