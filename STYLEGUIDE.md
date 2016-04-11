@@ -106,14 +106,18 @@ See references directly in the documentation style guide. Of particular use:
 - [Formatting text][docformatting]
 - [Links in text][doclinks]
 
-Code blocks should be formatted with a line space before the code block and
-three back ticks before and after the code block
+Always put filenames in backticks ` so they appear as code inline. For example: `filenames`
+
+A sentence leading up to an explanatory codeblock should end in a colon instead of a period.
+
+Before and after code blocks: include a full line break and three back ticks.
+There is no need to indent the code block.
 
 <pre>
 
- ```
-  code 
- ```
+```
+code 
+```
  
 </pre>
 
@@ -180,6 +184,10 @@ For example don't refer to "Gitlab CI's runner" please refer to "GitLab Runner."
 **GitLab, Inc.** is the company. 
 
 We refer to **GitLab team members** instead of staff. 
+
+Make sure we always call it `.gitlab-ci.yml`, with the leading period and backticks.
+
+When we refer to specific configuration sections or pages in GitLab they should be in Bold.
 
 ************
 
