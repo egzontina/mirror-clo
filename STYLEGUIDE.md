@@ -106,6 +106,17 @@ See references directly in the documentation style guide. Of particular use:
 - [Formatting text][docformatting]
 - [Links in text][doclinks]
 
+Code blocks should be formatted with a line space before the code block and
+three back ticks before and after the code block
+
+<pre>
+
+ ```
+  code 
+ ```
+ 
+</pre>
+
 ## Person
 
 The point of view or person you write in will depend on the content you are writing. 
