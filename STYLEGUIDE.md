@@ -45,13 +45,23 @@ are covered.
 If that article or documentation doesn't yet exist, considering writing *that* 
 article or contributing *that* documentation first. 
 
-Some information should be left to documentation. 
-Documentation should be the map. 
-The articles and tutorials should be guided tour of key landmarks. 
-Details about requirements, supported technologies, and so forth. 
+Some information should be contributed to documentation. 
+Documentation should be *the map*. 
+The articles and tutorials should be *the guided tour* of key landmarks. 
+Details about requirements, supported technologies, and so forth should be in documentation. 
 If it's not already in documentation please contibute it to GitLab CE or EE. 
 Alternatively, make an [issue for missing documentation](https://gitlab.com/gitlab-com/doc-gitlab-com).
 This is more sustainable, since documentation is maintained. 
+
+Offer an explanation of the example, with code blocks or screenshots.
+For example, in the case where you must assume the reader knows testing to get the
+most out of an article, provide enough information that a novice could understand
+what is happening, and refer to resources to learn more. 
+
+> "Here's an sample project with a test which does X.
+This is the test file which uses Y test suite.
+In this case we're testing if A does B when the test is run. (include code block sample)
+You can learn more about testing in this great tutorial. (include a link)" 
 
 **Important security point:** Do not expose your personal details by using your real tokens or 
 security credentials.
