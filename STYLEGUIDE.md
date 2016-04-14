@@ -211,4 +211,4 @@ Credit where credit is due: Some of the guidelines are inspired by the
 [docformatting]: http://doc.gitlab.com/ce/development/doc_styleguide.html#formatting
 [doclinks]: http://doc.gitlab.com/ce/development/doc_styleguide.html#links
 [docimages]: http://doc.gitlab.com/ce/development/doc_styleguide.html#images
-[dostyleguide]: https://www.digitalocean.com/community/tutorials/how-to-write-an-article-for-the-digitalocean-community)
+[dostyleguide]: https://www.digitalocean.com/community/tutorials/how-to-write-an-article-for-the-digitalocean-community
