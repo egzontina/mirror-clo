@@ -116,7 +116,7 @@ See references directly in the documentation style guide. Of particular use:
 - [Formatting text][docformatting]
 - [Links in text][doclinks]
 
-Always put filenames in backticks ` so they appear as code inline. For example: `filenames`
+Always put filenames in backticks \` so they appear as code inline. For example: `filenames`
 
 A sentence leading up to an explanatory codeblock should end in a colon instead of a period.
 
