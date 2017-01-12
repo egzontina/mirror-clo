@@ -1,0 +1,88 @@
+---
+title: "Why deploy on-premises in the SaaS era?"
+date: 2015-02-12
+categories:
+author: Haydn Mackay
+image_title: '/images/stock/on_premises.jpeg'
+author_twitter: haydnmackay
+---
+
+When I started in the software industry 10 years ago the idea of
+putting your company's crown jewels (source code) on someone else's
+infrastructure was preposterous. It was typically the domain of
+open-source projects or hobby programmers looking to avoid server
+management, taking backups, etc. Although some services have been
+around since the late 90's it wasn't until the [second half of the last
+decade](http://en.wikipedia.org/wiki/Comparison_of_source_code_software_hosting_facilities) that 3rd party code hosting became more acceptable, especially
+among SME's. There's been a [proliferation of providers](http://blog.profitbricks.com/top-source-code-repository-hosts/) in the space since.
+
+The advantages of SaaS over on-premises deployments has been written
+about ad nauseam and there's certainly good reasons why but let's take
+a moment to highlight some of the reasons why on-premises is not such a
+bad idea after all.
+
+<!-- more -->
+
+## Containment
+Firewalls exist to protect private networks from unauthorized access.
+Containing your companies IP to within their own network puts the
+security onus squarely on them and they can lock it down like Fort Knox
+should they wish. Let's not forget what [happened to poor old Code
+Space](http://www.infoworld.com/article/2608076/data-center/murder-in-the-amazon-cloud.html). Lots of lessons learned after the attack but with a hosting
+provider you're still putting the kids in someone else's car and you're
+not driving.
+
+<%= partial "includes/download" %>
+
+## Integrations – LDAP / AD and others
+Managing permissions and access controls to code repositories is an
+important responsibility. Having the ability to authenticate users
+against an LDAP or Active Directory server makes this task less
+daunting because they contain the single source of truth about an
+employee's status. Furthermore, synchronizing LDAP and AD groups to your
+development project groups automates access controls by ensuring up to
+date visibility levels. Using a multi tenant hosting provider makes
+authentication against LDAP and AD servers impossible.
+
+On premise servers are also much more conducive to integrating with
+other tools in your CD pipeline such as ALM, PLM, Agile and Automation
+tools. Hosted services usually provide a small selection of  tool
+integrations to choose from and API access is limited or nonexistent.
+
+## Control
+There's something to be said about knowing where your code is stored,
+how it's backed-up, which servers are managing the repositories and
+what the failover plan is. Being at the mercy of your hosting provider
+reduces that level of control and introduces a new level of risk.
+Although unscheduled downtime of hosted services is few and far
+between, it still happens and when it does, thousands of developers are
+left twiddling their thumbs. Most large development organizations are
+spread across multiple time zones and scheduling maintenance windows
+can be tricky. With an on premise server, you're in control of these
+windows.
+
+## Performance
+I've seen hundreds of RFP's over the years and every one of them
+included a section on performance. Performance is one of the biggest
+drivers behind a migration off legacy systems after all. Having your
+repositories in a data center that's local to your developers reduces
+latency, speeding up push / pull times and especially initial clone
+times.  As repositories grow large, latency exacerbates performance
+degradation making on-prem servers more conducive to big code bases.
+
+## Choice and Flexibility
+On-premises deployments can be installed on physical servers,
+virtualized servers (dedicated or shared), purpose-built appliances and
+virtualized appliances. These aren't available with hosted solutions.
+Likewise, most on-premises servers can be deployed on a variety of
+operating systems and there's more choice of on-premises solutions in
+general.
+
+## Retrieval
+Getting your IP back from cloud vendors that store data in proprietary formats can be a costly and lengthy process. No such trouble with on-premises.
+
+## Conclusion
+Although there's plenty of good reasons for using a hosted solution,
+the advantages of on-premises deployments should not be overlooked.
+GitLab is the most adopted on-premises solution for developer
+collaboration, deployed at over 100,000 organizations worldwide.

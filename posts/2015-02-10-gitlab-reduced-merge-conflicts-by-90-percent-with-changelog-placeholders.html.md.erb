@@ -1,0 +1,58 @@
+---
+title: "GitLab reduced merge conflicts by 90% with changelog placeholders"
+date: 2015-02-10
+categories:
+author: Sytse Sijbrandij
+image_title: '/images/stock/changelog.jpeg'
+author_twitter: sytses
+---
+
+GitLab has a very active development cycle with many features being added to its monthly release by
+[more than 700 contributors](http://contributors.gitlab.com/).
+Like many projects it has a
+[changelog file](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CHANGELOG)
+that details all significant new features, bugfixes and changes to behaviour.
+Every pull/merge request author is [encouraged](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CONTRIBUTING.md#merge-request-guidelines)
+to add a line to this changelog. Unfortunately, the amount of merge requests lead to a time-consuming problem.
+
+<!-- more -->
+
+## Problem
+
+[![:(](/images/conflict.png)](/images/conflict.png)
+
+The order in which merge requests are accepted is not know in advance.
+Most merge request added a new line to the changelog the end of the upcoming version.
+This meant that upon merging a single merge request, all other unmerged MRs were immediately broken, since they modified the same line.
+The authors of the merge requests had to solve the merge conflict with a commit or rebase before their code could be merged in the web UI.
+
+<%= partial "includes/download" %>
+
+## Update
+
+ayufan suggested a much better solution in the comments of this article.
+If you add `CHANGELOG merge=union` to the .gitattributes file in the root of the repo you should not have any conflicts.
+Instead of leaving conflicts the [union merge option](http://git-scm.com/docs/git-merge-file) will resolve conflicts favouring both side of the lines.
+An example of such a setting change is in the [endgamesingularity repo](https://code.google.com/p/endgame-singularity/source/browse/.gitattributes).
+Thanks ayufan, we'll try this instead.
+
+## Solution
+
+At GitLab we solved the above problem by adding a 100 lines with just a hyphen placeholder at the top of the changelog.
+People can insert their entry at a random location in the changelog.
+There is still a chance of conflict when two merge requests change the same line but it is greatly reduced.
+It looks a bit strange to have these empty lines on top so we added a [comment to explain their purpose.](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/CHANGELOG#L1).
+
+[![What developer happiness looks like](/images/accept.png)](/images/accept.png)
+
+As [part of the monthly release process](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/release/monthly.md#prepare-changelog-for-next-release) all the empty lines are removed and new ones for the upcoming release are added.
+The placeholders ensure that lead GitLab developer Dmitriy can merge new contributions easily from his iPad.
+Which has led to more late-night merging activity making everyone happy.
+
+## What do you do?
+
+We hope this article inspires other open and closed source projects to reduce their merge conflicts.
+Or if you don't have a changelog yet to start maintaining one, it sure beats doing git diffs all the time.
+Please let us know if you are inspired or if you have any other tricks to share in the comments.
+
+<%= partial "includes/download" %>
